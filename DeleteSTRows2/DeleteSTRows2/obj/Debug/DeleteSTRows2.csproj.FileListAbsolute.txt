@@ -1,0 +1,7 @@
+E:\ProgramWorkSpace\Visual Studio 2015\DeleteSTRows2\DeleteSTRows2\bin\Debug\DeleteSTRows2.exe.config
+E:\ProgramWorkSpace\Visual Studio 2015\DeleteSTRows2\DeleteSTRows2\bin\Debug\DeleteSTRows2.exe
+E:\ProgramWorkSpace\Visual Studio 2015\DeleteSTRows2\DeleteSTRows2\bin\Debug\DeleteSTRows2.pdb
+E:\ProgramWorkSpace\Visual Studio 2015\DeleteSTRows2\DeleteSTRows2\bin\Debug\MySql.Data.dll
+E:\ProgramWorkSpace\Visual Studio 2015\DeleteSTRows2\DeleteSTRows2\obj\Debug\DeleteSTRows2.csprojResolveAssemblyReference.cache
+E:\ProgramWorkSpace\Visual Studio 2015\DeleteSTRows2\DeleteSTRows2\obj\Debug\DeleteSTRows2.exe
+E:\ProgramWorkSpace\Visual Studio 2015\DeleteSTRows2\DeleteSTRows2\obj\Debug\DeleteSTRows2.pdb
