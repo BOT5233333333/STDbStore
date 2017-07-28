@@ -12,37 +12,32 @@ namespace DeleteSTRows2
     {
         static void Main(string[] args)
         {
-            //FileStream fs = File.OpenRead(@"E:\股票tick数据导入完成记录\开始导入20170713 10-30-04.txt");
-            //StreamReader sr = new StreamReader(fs, Encoding.UTF8);
+            FileStream fs = File.OpenRead(@"E:\股票tick数据导入完成记录\开始导入20170713 10-30-04.txt");
+            StreamReader sr = new StreamReader(fs, Encoding.UTF8);
 
-            //string line = null;
-            //List<string> stockcodes = new List<string>();
-            //List<string> marketid = new List<string>();
-
-            //while ((line = sr.ReadLine()) != null)
-            //{
-            //    if (line.Contains("csv"))
-            //    {
-            //        marketid.Add(line.Substring(27, 2));
-            //        stockcodes.Add(line.Substring(29, 6));
-            //    }
-            //}
-            //fs.Close();
-            //sr.Close();
-
+            string line = null;
+            List<string> stockcodes = new List<string>();
             List<string> marketid = new List<string>();
-            List<string> stockcode = new List<string>();
-            marketid.Add("sz");
-            stockcode.Add("000554");
 
-            string connStr = "Server=192.168.2.129;User ID=root;Password=123456;Database=STHisDBTick2008;CharSet=utf8";
+            while ((line = sr.ReadLine()) != null)
+            {
+                if (line.Contains("csv"))
+                {
+                    marketid.Add(line.Substring(27, 2));
+                    stockcodes.Add(line.Substring(29, 6));
+                }
+            }
+            fs.Close();
+            sr.Close();
+
+            string connStr = "Server=192.168.2.129;User ID=root;Password=123456;Database=STHisDBTick2013;CharSet=utf8";
             List<string> tableNames = new List<string>();
             using (MySqlConnection conn = new MySqlConnection(connStr))
             {
                 conn.Open();
                 MySqlCommand cmd = new MySqlCommand();
                 cmd.Connection = conn;
-                cmd.CommandText = "select TABLE_NAME from INFORMATION_SCHEMA.tables where TABLE_SCHEMA = \"sthisdbtick2008\"";
+                cmd.CommandText = "select TABLE_NAME from INFORMATION_SCHEMA.tables where TABLE_SCHEMA = \"sthisdbtick2013\"";
                 var reader = cmd.ExecuteReader();
                 while (reader.Read())
                 {

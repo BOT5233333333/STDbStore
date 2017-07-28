@@ -5,3 +5,10 @@ E:\ProgramWorkSpace\Visual Studio 2015\STDbStore_Sup2\STDbStore_Sup2\bin\Debug\M
 E:\ProgramWorkSpace\Visual Studio 2015\STDbStore_Sup2\STDbStore_Sup2\obj\Debug\STDbStore_Sup2.csprojResolveAssemblyReference.cache
 E:\ProgramWorkSpace\Visual Studio 2015\STDbStore_Sup2\STDbStore_Sup2\obj\Debug\STDbStore_Sup2.exe
 E:\ProgramWorkSpace\Visual Studio 2015\STDbStore_Sup2\STDbStore_Sup2\obj\Debug\STDbStore_Sup2.pdb
+E:\ProgramWorkSpace\Git Lib\STDbStore\STDbStore_Sup2\STDbStore_Sup2\bin\Debug\STDbStore_Sup2.exe.config
+E:\ProgramWorkSpace\Git Lib\STDbStore\STDbStore_Sup2\STDbStore_Sup2\obj\Debug\STDbStore_Sup2.exe
+E:\ProgramWorkSpace\Git Lib\STDbStore\STDbStore_Sup2\STDbStore_Sup2\obj\Debug\STDbStore_Sup2.pdb
+E:\ProgramWorkSpace\Git Lib\STDbStore\STDbStore_Sup2\STDbStore_Sup2\bin\Debug\STDbStore_Sup2.exe
+E:\ProgramWorkSpace\Git Lib\STDbStore\STDbStore_Sup2\STDbStore_Sup2\bin\Debug\STDbStore_Sup2.pdb
+E:\ProgramWorkSpace\Git Lib\STDbStore\STDbStore_Sup2\STDbStore_Sup2\bin\Debug\MySql.Data.dll
+E:\ProgramWorkSpace\Git Lib\STDbStore\STDbStore_Sup2\STDbStore_Sup2\obj\Debug\STDbStore_Sup2.csprojResolveAssemblyReference.cache
